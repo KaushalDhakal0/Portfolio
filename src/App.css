@@ -40,9 +40,10 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active , .navbar-nav > li> a.active:focus{
-  border-top: 0.19rem solid yellowgreen;
-  /* background-color: yellowgreen; */
+  /* border-top: 0.19rem solid yellowgreen; */
+  background-color: yellowgreen;
 }
 .navbar-nav > li > a:hover{
-  border-top: 0.19rem solid yellowgreen;;
+  /* border-top: 0.19rem solid yellowgreen; */
+  background-color: yellowgreen;
 }
