@@ -1,12 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+:root{
+  --primary-white: #fff;
+}
+
+body{
+  font-family: 'Yusei Magic', sans-serif;
+}
+
 .logo{
   width: 10rem;
-  height: 4rem;
+  height: 3rem;
 }
 
 /*-------Menu LINKS----------*/
 
+nav a.nav-link{
+  /* font-weight: 500; */
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
 
+nav ul li {
+  text-transform: uppercase;
+  
+}
 
-div ul li a{
-  font-size: xx-large;
+.navbar-nav > li > a{
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important;
+}
+
+.navbar-brand{
+  
+  padding-top: 0.5625rem;
+  max-width: 17.5rem;
+  height: 4rem !important;
 }
