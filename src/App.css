@@ -38,3 +38,11 @@ nav ul li {
   max-width: 17.5rem;
   height: 4rem !important;
 }
+
+.navbar-nav > li > a.active , .navbar-nav > li> a.active:focus{
+  border-top: 0.19rem solid yellowgreen;
+  /* background-color: yellowgreen; */
+}
+.navbar-nav > li > a:hover{
+  border-top: 0.19rem solid yellowgreen;;
+}
